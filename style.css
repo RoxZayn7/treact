@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: #f4f7f6;
+}
+
+/* NAVBAR */
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    border: 5px solid #6a38ff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-box {
+    background: #6a38ff;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.signup-btn {
+    background: #6a38ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+
+.hero {
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero-text span {
+    color: #6a38ff
+}
+
+.hero-text p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.email-form {
+    display: flex;
+    width: 500px;
+    max-width: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: white;
+    overflow: hidden;
+}
+
+.email-form input {
+    flex: 1;
+    padding: 18px;
+    border: none;
+    outline: none;
+}
+
+.email-form button {
+    background: #6a38ff;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 650px;
+}
