@@ -214,13 +214,62 @@ form button {
     flex-shrink: 1;
 }
 
+/* QUALITY */
+
+.quality {
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.quality-text h2 {
+    font-size: 58px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.quality-text span {
+    color: #5b3df5;
+}
+
+.quality-text p {
+    color: #777;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.learn.btn {
+    background: #5b3df5;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.learn-btn:hover {
+    background: #4524e6;
+}
+
+.quality-image {
+    flex: 1;
+}
+
+.quality-image img {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
 /* RESPONSIVE */
 
 @media(max-width: 900px) {
-    .feature-container {
-        grid-template-columns: 1fr;
-    }
-
     .features h2 {
         font-size:40px;
     }
@@ -231,5 +280,14 @@ form button {
 
     .feature-card {
         justify-content: center;
+    }
+
+    .quality {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quality-text h2 {
+        font-size: 42px;
     }
 }
