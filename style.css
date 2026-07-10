@@ -93,29 +93,39 @@ body {
     margin-bottom: 35px;
 }
 
-.email-form {
+form {
     display: flex;
     width: 500px;
     max-width: 100%;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: white;
+    border: 2px solid #ddd;
+    border-radius: 40px;
     overflow: hidden;
 }
 
-.email-form input {
+form input {
     flex: 1;
-    padding: 18px;
+    padding: 20px;
+    font-size: 18px;
     border: none;
     outline: none;
 }
 
-.email-form button {
+form button {
     background: #6a38ff;
     color: white;
     border: none;
     padding: 18px 35px;
     cursor: pointer;
+    font-size: 18px;
+}
+
+.trusted {
+    margin: 60px;
+}
+
+.trusted img {
+    width: 350px;
+    opacity: 0.5;
 }
 
 .hero-image {
