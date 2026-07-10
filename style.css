@@ -147,7 +147,7 @@ form button {
 
 .feature-container {
     margin-top: 80px;
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
 }
@@ -192,4 +192,42 @@ form button {
     color: #777;
     line-height: 1.8;
     font-size: 15px;
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.feature-icon {
+    width: 32px;
+    height: 30px;
+    object-fit: contain;
+    flex-shrink: 1;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 900px) {
+    .feature-container {
+        grid-template-columns: 1fr;
+    }
+
+    .features h2 {
+        font-size:40px;
+    }
+
+    .feature-text {
+        font-size: 18px;
+    }
+
+    .feature-card {
+        justify-content: center;
+    }
 }
