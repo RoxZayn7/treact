@@ -146,13 +146,15 @@ form button {
 }
 
 .feature-container {
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .feature-card {
+    width: 30%;
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -206,7 +208,7 @@ form button {
 }
 
 .feature-icon {
-    width: 32px;
+    width: calc(100%/3);
     height: 30px;
     object-fit: contain;
     flex-shrink: 1;
