@@ -136,3 +136,49 @@ form button {
     width: 100%;
     max-width: 650px;
 }
+
+/* FEATURES SECTION */
+
+.features {
+    width: 90%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.feature-container {
+    margin-top: 80px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.feature-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+}
+
+.features h4 {
+    color: #5b3df5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.features h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.features h2 span {
+    color: #5b3df5;
+}
+
+.features-text {
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    color: #777;
+    line-height: 1.8;
+    font-size: 20px;
+}
