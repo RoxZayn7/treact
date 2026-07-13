@@ -278,6 +278,70 @@ form button {
     background: #4524e6;
 }
 
+/* STEPS */
+
+.steps {
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.steps-image {
+    flex: 1;
+}
+
+.steps-image img {
+    width: 100%;
+    max-width: 850px;
+}
+
+.steps-text {
+    flex: 1;
+}
+
+.steps-text h4 {
+    color: #5b3df5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.steps-text h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+.steps-text span {
+    color: #5b3df5;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.number {
+    color: #d1d5db;
+    font-size: 36px;
+    font-weight: bold;
+    min-width: 60px;
+}
+
+.step-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.step-info p {
+    color: #777;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
 /* RESPONSIVE */
 
 @media(max-width: 900px) {
@@ -300,5 +364,18 @@ form button {
 
     .quality-text h2 {
         font-size: 42px;
+    }
+
+    .steps {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .step {
+        justify-content: center;
+    }
+
+    .steps-text h2 {
+        font-size: 40px;
     }
 }
