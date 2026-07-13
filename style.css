@@ -208,10 +208,9 @@ form button {
 }
 
 .feature-icon {
-    width: calc(100%/3);
-    height: 30px;
+    width: 35px;
+    height: 35px;
     object-fit: contain;
-    flex-shrink: 1;
 }
 
 /* QUALITY */
@@ -222,14 +221,23 @@ form button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 70px;
+    gap: 60px;
+}
+
+.quality-text {
+    flex: 1;
+    max-width: 520px;
 }
 
 .quality-text h2 {
-    font-size: 58px;
+    font-size: 50px;
     line-height: 1.2;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
+
+.quality-text h4 {
+        color: rgb(134, 35, 134);
+    }
 
 .quality-text span {
     color: #5b3df5;
@@ -237,34 +245,37 @@ form button {
 
 .quality-text p {
     color: #777;
-    font-size: 20px;
+    font-size: 16px;
+    max-width: 500px;
     line-height: 1.8;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
-.learn.btn {
+.quality-image {
+    display: flex;
+    justify-content: center;
+}
+
+.quality-image img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+
+.learn-btn {
     background: #5b3df5;
     color: white;
     border: none;
-    padding: 18px 40px;
+    padding: 15px 30px;
     border-radius: 35px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bold;
     cursor: pointer;
-    transition: 3s;
 }
 
 .learn-btn:hover {
     background: #4524e6;
-}
-
-.quality-image {
-    flex: 1;
-}
-
-.quality-image img {
-    width: 100%;
-    border: 1px solid #ddd;
 }
 
 /* RESPONSIVE */
