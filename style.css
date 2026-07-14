@@ -721,6 +721,75 @@ form button {
 }
 
 
+/* FAQ */
+
+.faq {
+    width: 90%;
+    max-width: 1000px;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.faq h4 {
+    color: #5b3df5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.faq h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.faq h2 span {
+    color: #5b3df5;
+}
+
+.faq-text {
+    width: 650px;
+    max-width: 100%;
+    margin: 0 auto 60px;
+    color: #777;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-box {
+    background: #c5cdd4;
+    border-radius: 8px;
+    padding: 25px 35px;
+    text-align: left;
+}
+
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-header h3 {
+    font-size: 18px;
+}
+
+.faq-container span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.faq-box p {
+    margin-top: 25px;
+    color: #666;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+
 /* RESPONSIVE */
 
 @media(max-width: 900px) {
