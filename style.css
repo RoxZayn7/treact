@@ -395,7 +395,7 @@ form button {
 .pricing-card {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 320px;
     background: white;
     border-radius: 12px;
     overflow: hidden;
