@@ -344,6 +344,172 @@ form button {
     font-size: 17px;
 }
 
+.two-column {
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+/* PRICING */
+
+.pricing {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pricing-section {
+    width: 90%;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.pricing-section h4 {
+    color: #5b3df5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.pricing-section h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.pricing-section span {
+    color: #5b3df5;
+}
+
+.pricing-text {
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    color: #777;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.top-line {
+    height: 8px;
+}
+
+.green {
+    background: #4fd1c5;
+}
+
+.red {
+    background: #f56565;
+}
+
+.price-header {
+    padding: 40px 20px;
+}
+
+.price-header h3 {
+    margin-bottom: 20px;
+}
+
+.price-header h1 {
+    font-size: 58px;
+    margin-bottom: 15px;
+}
+
+.price-header h5 {
+    color: #888;
+    letter-spacing: 2px;
+}
+
+.price-body {
+    border-top: 1px solid #eee;
+    border-radius: 1px solid #eee;
+}
+
+.price-body h4 {
+    margin-bottom: 25px;
+}
+
+.price-body p {
+    margin: 18px 0;
+    color: #666;
+}
+
+.personal,
+.enterprise {
+    color: #1a202c;
+}
+
+.personal .price-header h1,
+.enterprise .price-header h1 {
+    color: #1a202c;
+}
+
+.personal .price-header h3,
+.enterprise .price-header h3 {
+    color: #1a202c;
+}
+
+.personal .price-header h5,
+.enterprise .price-header h5 {
+    color: #718096;
+}
+
+.green-btn,
+.red-btn,
+.white-btn {
+    margin: 35px auto;
+    width: 190px;
+    height: 55px;
+    border: none;
+    border-radius: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.green-btn {
+    background-color: #4fd1c5;
+    color: white;
+}
+
+.red-btn {
+    background-color: #f56565;
+    color: white;
+}
+
+.business {
+    background: linear-gradient(135deg, #5b3df5, #667eea);
+    color: white;
+}
+
+.business .price-body {
+    border-color: rgba(255, 255, 255, .25);
+}
+
+.business .price-body p {
+    color: white;
+}
+
+.business .price-header h5 {
+    color: white;
+}
+
+.white-btn {
+    background: white;
+    color: #5b3df5;
+}
+
 /* RESPONSIVE */
 
 @media(max-width: 900px) {
@@ -379,5 +545,16 @@ form button {
 
     .steps-text h2 {
         font-size: 40px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .pricing {
+        justify-content: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 400px;
     }
 }
