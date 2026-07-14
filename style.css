@@ -603,46 +603,117 @@ form button {
 
 .testimonials {
     width: 90%;
-    margin: 120px auto;
+    margin: 140px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
 }
 
-.testimonials-text {
+.testimonial-text {
     flex: 1;
-    max-width: 520px;
+    max-width: 560px;
 }
 
-.testimonials-text h2 {
-    font-size: 50px;
+.testimonial-text h2 {
+    font-size: 45px;
     line-height: 1.2;
     margin-bottom: 25px;
 }
 
-.testimonials-text h4 {
-    color: rgb(134, 35, 134);
+.testimonial-text h4 {
+    color: #5b3df5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
-.testimonials-text span {
+.testimonial-text span {
     color: #5b3df5;
 }
 
-.testimonials-text p {
+.testimonial-intro {
     color: #777;
     font-size: 16px;
-    max-width: 500px;
     line-height: 1.8;
     margin-bottom: 35px;
 }
 
-.testimonials-image {
+.stars {
+    color: #f4b400;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+.testimonial-text h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.review {
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.client-info img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.client-info h4 {
+    color: black;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.client-info p {
+    color: #777;
+    margin: 0;
+}
+
+.arrows {
+    display: flex;
+    gap: 15px;
+}
+
+.arrows button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #f2f2f2;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.arrows button:hover {
+    background: #5b3df5;
+    color: white;
+}
+
+.testimonial-image {
     display: flex;
     justify-content: center;
 }
 
-.testimonials-image img{
+.testimonial-image img{
     width: 100%;
     max-width: 600px;
     height: auto;
