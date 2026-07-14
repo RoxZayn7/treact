@@ -9,6 +9,7 @@ body {
     background-color: #f4f7f6;
 }
 
+
 /* NAVBAR */
 
 .navbar {
@@ -60,6 +61,7 @@ body {
     border-radius: 25px;
     cursor: pointer;
 }
+
 
 /* HERO SECTION */
 
@@ -137,6 +139,7 @@ form button {
     max-width: 650px;
 }
 
+
 /* FEATURES SECTION */
 
 .features {
@@ -213,6 +216,7 @@ form button {
     object-fit: contain;
 }
 
+
 /* QUALITY */
 
 .quality {
@@ -277,6 +281,7 @@ form button {
 .learn-btn:hover {
     background: #4524e6;
 }
+
 
 /* STEPS */
 
@@ -352,6 +357,7 @@ form button {
     gap: 100px;
 }
 
+
 /* PRICING */
 
 .pricing {
@@ -359,11 +365,12 @@ form button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .pricing-section {
-    width: 90%;
+    width: 100%;
+    max-width: 1200px;
     margin: 140px auto;
     text-align: center;
 }
@@ -509,6 +516,88 @@ form button {
     background: white;
     color: #5b3df5;
 }
+
+
+/* VALUES */
+
+.values {
+    width: 90%;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.values-text {
+    flex: 1;
+    max-width: 560px;
+}
+
+.values-text h4 {
+    color: #5b3df5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.values-text h2 {
+    font-size: 55px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.values-text span {
+    color: #5b3df5;
+}
+
+.values-text p {
+    color: #777;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.values-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.values-image img {
+    width: 100%;
+    max-width: 620px;
+}
+
+/* two feature boxes */
+
+.value-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 45px;
+}
+
+.value-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.value-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.value-box h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.value-box p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #777;
+}
+
 
 /* RESPONSIVE */
 
