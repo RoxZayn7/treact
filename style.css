@@ -790,6 +790,58 @@ form button {
 }
 
 
+/* CTA */
+
+.cta {
+    width: 90%;
+    max-width: 1200px;
+    margin: 120px auto -60px;
+    padding: 70px 60px;
+    background: #5b3df5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    z-index: 2;
+}
+
+.cta-text {
+    width: 50%;
+}
+
+.cta-text h2 {
+    color: white;
+    font-size: 42px;
+    line-height: 1.4;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.cta-red,
+.cta-white {
+    padding: 18px 40px;
+    border-radius: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta-red {
+    background: #f56565;
+    color: white;
+    border: none;
+}
+
+.cta-white {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
 /* RESPONSIVE */
 
 @media(max-width: 900px) {
