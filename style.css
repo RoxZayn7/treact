@@ -930,6 +930,180 @@ form button {
 
 /* RESPONSIVE */
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        order: 2;
+    }
+
+    .hero-image {
+        order: 1;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .feature-container {
+        justify-content: center;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+
+    .quality {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quality-text {
+        max-width: 100%;
+    }
+
+    .quality-image {
+        max-width: 100%;
+    }
+
+    .steps {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .values {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .values-items {
+        justify-content: center;
+    }
+
+    .testimonial {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .client-info {
+        justify-content: center;
+    }
+
+    .FAQ h2 {
+        font-size: 40px;
+    }
+
+    .faq-box {
+        padding: 20px;
+    }
+
+    .faq-header h3 {
+        font-size: 20px;
+    }
+
+    .cta {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-text {
+        width: 100%;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-red,
+    .cta-white {
+        width: 100%;
+    }
+
+    .footer-links {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .features h2,
+    .quality h2,
+    .steps h2,
+    .values h2,
+    .testimonial h2,
+    .pricing-section h2,
+    .faw h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p,
+    .features-text,
+    .pricing-text,
+    .faq-text {
+        font-size: 16px;
+    }
+
+    form input {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    form button {
+        padding: 15px 20px;
+    }
+
+    .step-info h3 {
+        font-size: 20px;
+    }
+
+    .pricing-card {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 120px 25px 40px;
+    }
+}
+
 @media(max-width: 900px) {
     .features h2 {
         font-size:40px;
@@ -974,5 +1148,28 @@ form button {
     .pricing-card {
         width: 100%;
         max-width: 400px;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .hero,
+    .quality,
+    .steps,
+    .values,
+    .testimonial,
+    .cta {
+        gap: 40px
+    }
+
+    .pricing-card {
+        width: 320px;
     }
 }
