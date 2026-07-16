@@ -23,6 +23,16 @@ body {
     border: 5px solid #6a38ff;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -932,15 +942,35 @@ form button {
 
 @media (max-width: 768px) {
     .navbar {
+        position: relative;
         flex-direction: column;
         gap: 20px;
         padding: 20px;
     }
 
     .nav-links {
+        display: none;
+        position: absolute;
+        top: 75px;
+        right: 20px;
+        width: 220px;
+        background: white;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+        padding: 20px; 
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
+    }
+
+    #menu-toggle:checked + .hamburger + .nav-links {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
     }
 
     .hero {
