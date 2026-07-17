@@ -19,7 +19,7 @@ body {
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
-    align-self: center;
+    align-items: center;
     border: 5px solid #6a38ff;
 }
 
@@ -30,6 +30,7 @@ body {
 .hamburger {
     display: none;
     font-size: 32px;
+    color: #5b3df5;
     cursor: pointer;
 }
 
@@ -943,8 +944,6 @@ form button {
 @media (max-width: 768px) {
     .navbar {
         position: relative;
-        flex-direction: column;
-        gap: 20px;
         padding: 20px;
     }
 
@@ -963,6 +962,7 @@ form button {
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
+        z-index: 1000;
     }
 
     #menu-toggle:checked + .hamburger + .nav-links {
