@@ -83,7 +83,7 @@ img {
 
 .hero {
     width: 90%;
-    margin: 80px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,7 +160,7 @@ form button {
 
 .features {
     width: 90%;
-    margin: 120px auto;
+    margin: 70px auto;
     text-align: center;
 }
 
@@ -237,7 +237,7 @@ form button {
 
 .quality {
     width: 90%;
-    margin: 120px auto;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -377,7 +377,7 @@ form button {
 /* PRICING */
 
 .pricing {
-    margin-top: 80px;
+    margin-top: 70px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -387,7 +387,7 @@ form button {
 .pricing-section {
     width: 100%;
     max-width: 1200px;
-    margin: 140px auto;
+    margin: 70px auto;
     text-align: center;
 }
 
@@ -538,7 +538,7 @@ form button {
 
 .values {
     width: 90%;
-    margin: 140px auto;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -619,7 +619,7 @@ form button {
 
 .testimonials {
     width: 90%;
-    margin: 140px auto;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -742,7 +742,7 @@ form button {
 .faq {
     width: 90%;
     max-width: 1000px;
-    margin: 140px auto;
+    margin: 70px auto;
     text-align: center;
 }
 
