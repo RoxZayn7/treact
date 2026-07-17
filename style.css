@@ -20,7 +20,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 5px solid #6a38ff;
 }
 
 #menu-toggle {
@@ -941,10 +940,10 @@ form button {
 
 /* RESPONSIVE */
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .navbar {
         position: relative;
-        padding: 20px;
+        padding: 0 40px;
     }
 
     .nav-links {
