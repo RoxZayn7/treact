@@ -657,6 +657,16 @@ form button {
     margin-bottom: 35px;
 }
 
+.row {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .stars {
     color: #f4b400;
     font-size: 28px;
@@ -736,7 +746,7 @@ form button {
 
 .testimonial-image img{
     width: 100%;
-    max-width: 600px;
+    max-width: 600px 500px;
     height: auto;
     display: block;
 }
