@@ -9,6 +9,12 @@ body {
     background-color: #f4f7f6;
 }
 
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -736,7 +742,7 @@ form button {
 
 .testimonial-image img{
     width: 100%;
-    max-width: 200px 200px;
+    max-width: 600px;
     height: auto;
     display: block;
 }
@@ -828,7 +834,7 @@ form button {
 }
 
 .cta-text {
-    width: 50%;
+    flex: 1;
 }
 
 .cta-text h2 {
@@ -869,8 +875,13 @@ form button {
 .footer {
     width: 100%;
     background: #5b3df5;
-    padding: 80px 60px 30px;
     color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
 }
 
 .footer-links {
@@ -916,6 +927,7 @@ form button {
 
 .footer-logo {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 12px;
 }
@@ -1070,7 +1082,7 @@ form button {
         justify-content: center;
     }
 
-    .testimonial {
+    .testimonials {
         flex-direction: column;
         text-align: center;
     }
@@ -1079,7 +1091,7 @@ form button {
         justify-content: center;
     }
 
-    .FAQ h2 {
+    .faq h2 {
         font-size: 40px;
     }
 
@@ -1094,6 +1106,7 @@ form button {
     .cta {
         flex-direction: column;
         text-align: center;
+        padding: 50px 30px;
     }
 
     .cta-text {
@@ -1137,9 +1150,9 @@ form button {
     .quality h2,
     .steps h2,
     .values h2,
-    .testimonial h2,
+    .testimonials h2,
     .pricing-section h2,
-    .faw h2 {
+    .faq h2 {
         font-size: 32px;
     }
 
@@ -1173,6 +1186,7 @@ form button {
     }
 
     .footer {
+        width: 100%;
         padding: 120px 25px 40px;
     }
 
@@ -1245,7 +1259,7 @@ form button {
     .quality,
     .steps,
     .values,
-    .testimonial,
+    .testimonials,
     .cta {
         gap: 40px
     }
@@ -1253,4 +1267,8 @@ form button {
     .pricing-card {
         width: 320px;
     }
+}
+
+* {
+    outline: 1px solid red;
 }
