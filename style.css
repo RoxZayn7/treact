@@ -1061,13 +1061,37 @@ form button {
         gap: 30px;
     }
 
+    .value-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .value-box {
+        width: 100%;
+        max-width: 350px;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .value-box h3 {
+        font-size: 24px;
+    }
+
+    .value-icon {
+        width: 60px;
+        height: 60px;
+    }
+
     .values-text {
         width: 100%;
-        max-width: 100%;
     }
 
     .values-text h2 {
-        font-size: 36px;
+        font-size: 34px;
+        height: 1.2;
     }
 
     .values-text p {
@@ -1076,10 +1100,6 @@ form button {
 
     .values-image img {
         max-width: 350px;
-    }
-
-    .values-items {
-        justify-content: center;
     }
 
     .testimonials {
@@ -1284,6 +1304,3 @@ form button {
     }
 }
 
-* {
-    outline: 1px solid red;
-}
