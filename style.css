@@ -544,7 +544,7 @@ form button {
 
 .values {
     width: 90%;
-    margin: 70px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -626,9 +626,9 @@ form button {
 .testimonials {
     width: 90%;
     height: auto;
-    margin: 70px auto;
+    margin: 30px auto;
     margin-bottom: 60px;
-    padding: 80px 0;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -737,7 +737,7 @@ form button {
 .testimonial-image {
     flex: 1;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 0;
 }
 
 .testimonial-image img{
